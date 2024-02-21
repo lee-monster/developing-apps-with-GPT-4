@@ -1,3 +1,7 @@
+# 본 예제는 redis 환경설정을 요구합니다. 아래 코드가 실행되지 않을 경우 원서의 github를 참고하여 시도해보시기 바랍니다
+# 원서 github: https://github.com/malywut/gpt_examples
+
+
 # 레디스 클라이언트
 
 class DataService():
