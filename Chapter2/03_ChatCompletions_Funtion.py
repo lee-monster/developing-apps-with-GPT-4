@@ -43,7 +43,7 @@ messages.append(response_message)
 # 함수를 호출
 {
   "role": "assistant",
-  "content": null,
+  "content": None,
   "function_call": {
     "name": "find_product",
     "arguments": "{\n \"sql_query\": \"SELECT * FROM products WHERE price < 2.00
