@@ -36,7 +36,7 @@ response = client.chat.completions.create(
   model="gpt-3.5-turbo-0613", messages=messages, functions=functions
 )
 
-response_message = response["choices"][0]["message"]
+response_message = response.choices[0].message
 messages.append(response_message)
 
 
